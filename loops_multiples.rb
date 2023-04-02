@@ -19,3 +19,16 @@
 
 p "Enter a number:"
 
+number = gets.chomp.to_i
+
+# p number
+
+multiple = 1
+
+while multiple < 11
+
+  p number * multiple
+
+  multiple = multiple + 1
+
+end
